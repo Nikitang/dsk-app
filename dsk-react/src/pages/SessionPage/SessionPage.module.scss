@@ -1,0 +1,25 @@
+.sessionBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    color: #fff;
+}
+
+.header {
+    font-size: 25px;
+
+    margin: 40px 0;
+}
+
+.period {
+    font-size: 20px;
+
+    margin: 25px 0;
+}
+
+.session {
+    display: flex;
+    gap: 15px;
+}

@@ -1,0 +1,28 @@
+.startBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+.btn {
+    display: block;
+
+    text-align: center;
+    line-height: 100px;
+
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+
+    background-color: #630897;
+    text-decoration: none;
+    color: #fff;
+
+    transition: 0.3s ease-in;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}

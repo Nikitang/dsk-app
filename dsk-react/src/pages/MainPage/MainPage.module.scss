@@ -1,0 +1,30 @@
+.mainBlock {
+    display: flex;
+    flex-direction: column;
+
+    color: #fff;
+}
+
+.header {
+    margin: 0 auto;
+    padding: 25px 0;
+
+    font-size: 25px;
+}
+
+.back {
+    margin: 0 auto;
+    display: block;
+}
+
+.cardBlock {
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    width: 1000px;
+}
